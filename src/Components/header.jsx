@@ -1,9 +1,15 @@
+import homeIcon from "../assets/lar.png"
 import'./header.css'
-const Header = () => {
+const Header = ({titulo, subtitulo}) => {
     return (
         <header className='header-container'>
-            <h1>Cadastro</h1>
-            <h2>Shine Stance</h2>
+            <a href="" className='homeA'><img className="homeLogo" src={homeIcon} alt="" /></a>
+            <div>
+            <h1>{titulo}</h1>
+            <h2>{subtitulo}</h2>
+            </div>
+            <a href="" className='loginA'>Login</a>
+
         </header>
     )
 }

@@ -1,8 +1,8 @@
 .body{
     width: 40%;
     margin: auto;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 60px;
+    margin-bottom: 120px;
     border: 1px solid rgb(238, 168, 168);
     background-color: white;
     border-radius: 10px;
@@ -11,18 +11,18 @@
 }
 .logoForm{
     margin-top: 20px;
-    width: 50%;
+    width: 80%;
 }
 .infos{
-    margin-top: 5px;
+    margin-top: 25px;
     margin-bottom: 20px;
 }
 .infos h2{
-    font-size: 22px;
+    font-size: 28px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .infos p{
-    font-size: 15px;
+    font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .form-container{
@@ -35,19 +35,22 @@
 }
 .form-categories label{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 20px;
+    font-size: 25px;
 }
 .form-categories input {
     border-radius: 10px;
+    border: 1px solid black;
+    width: 40%;
 }
 .buttonForm{
     margin-top: 20px;
     margin-bottom: 20px;
-    width: 70px;
-    font-size: 20px;
+    width: 85px;
+    height: 35px;
+    font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
     background-color: red;
     border-radius: 10px;
     color: white;
-    border: none;
+    border: 0.5px solid black;
 }
